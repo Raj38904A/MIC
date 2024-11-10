@@ -1,0 +1,10 @@
+#include<reg51.h>
+void main()
+{	 
+unsigned int i;
+int a[5]={0x01,0x02,0x03,0x04,0x05};
+int b[5];
+for(i=0;i<5;i++){
+b[i]=a[i];
+}
+}
