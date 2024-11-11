@@ -1,0 +1,17 @@
+org 00h
+
+MOV b,#03h
+
+MOV r0, #05h
+
+MOV r1, #0ah
+
+back:MOV a,@r0
+
+MOV @rl,a
+
+INC ro INC r1
+
+DJNZ b,back
+
+end
